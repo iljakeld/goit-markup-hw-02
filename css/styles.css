@@ -176,6 +176,7 @@ body {
 .btn {
   color: var(--title-text-color);
   background-color: var(--white-color);
+  font-family: 'Roboto', sans-serif;
 }
 .btn.primary {
   color: var(--white-color);
