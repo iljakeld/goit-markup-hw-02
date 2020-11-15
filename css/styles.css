@@ -20,6 +20,7 @@ body {
   background-color: var(--white-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
   max-width: 1600px;
   margin: auto;
 }
@@ -34,7 +35,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
+  /* letter-spacing: 0.03em; */
 }
 .header-studio {
   color: #000000;
@@ -106,7 +107,6 @@ body {
   color: var(--title-text-color);
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   text-align: center;
 }
 
@@ -117,13 +117,11 @@ body {
   text-transform: uppercase;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
 }
 .features-list .features-text {
   color: var(--primary-text-color);
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 /* Team  */
@@ -142,13 +140,11 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .team-list .profession {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 /* Footer  */
@@ -167,7 +163,6 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 .footer .footer-contact {
   color: rgb(255, 255, 255, 0.6);
@@ -175,7 +170,6 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 /* Buttons */
@@ -236,5 +230,4 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
 }
