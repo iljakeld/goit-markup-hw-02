@@ -16,6 +16,7 @@
   --secondary-background-color: #f5f4fa;
   --logo-studio-header-color: #000000;
   --footer-studio-footer-color: #fff;
+  --footer-contacts-color: rgb(255, 255, 255, 0.6);
 }
 
 body {
@@ -166,7 +167,7 @@ body {
   line-height: 1.71;
 }
 .footer .footer-contact {
-  color: rgb(255, 255, 255, 0.6);
+  color: var(--footer-contacts-color);
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
