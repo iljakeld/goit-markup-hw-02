@@ -14,6 +14,8 @@
   --white-color: #fff;
   --primary-background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
+  --logo-studio-header-color: #000000;
+  --footer-studio-footer-color: #fff;
 }
 
 body {
@@ -28,16 +30,18 @@ body {
 /* Logo  */
 
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
   text-decoration: none;
   font-family: 'Raleway', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
 .header-studio {
-  color: #000000;
+  color: var(--logo-studio-header-color);
+}
+.footer-studio-logo {
+  color: var(--footer-studio-footer-color);
 }
 .list {
   list-style: none;
@@ -77,6 +81,7 @@ body {
 }
 
 /* Hero  */
+
 .hero {
   background-color: var(--primary-background-color);
 }
@@ -153,9 +158,6 @@ body {
   color: rgb(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.footer-studio-logo {
-  color: #fff;
-}
 
 .footer .exact-address {
   color: var(--white-color);
@@ -176,7 +178,6 @@ body {
 .btn {
   color: var(--title-text-color);
   background-color: var(--white-color);
-  font-family: 'Roboto', sans-serif;
   cursor: pointer;
 }
 .btn.primary {
@@ -199,6 +200,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   text-align: center;
+  align-items: center;
 }
 .btn.secondary:hover,
 .btn.secondary:focus {
@@ -231,4 +233,8 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+}
+
+.portfolio-elements > a {
+  text-decoration: none;
 }
