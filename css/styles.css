@@ -85,10 +85,10 @@ body {
 
 .hero {
   background-color: var(--primary-background-color);
+  text-align: center;
 }
 .hero .btn.primary {
   text-decoration: none;
-  text-align: center;
 }
 
 .hero-title {
@@ -98,7 +98,6 @@ body {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  text-align: center;
 }
 
 /* Sections */
@@ -179,7 +178,10 @@ body {
 .btn {
   color: var(--title-text-color);
   background-color: var(--white-color);
+  font-family: inherit;
   cursor: pointer;
+  align-items: center;
+  text-align: center;
 }
 .btn.primary {
   color: var(--white-color);
@@ -187,8 +189,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
 }
@@ -200,9 +200,8 @@ body {
   font-weight: 500;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  text-align: center;
-  align-items: center;
 }
+
 .btn.secondary:hover,
 .btn.secondary:focus {
   color: var(--white-color);
@@ -216,9 +215,16 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
 .portfolio-container {
   max-width: 1170px;
   margin: auto;
+  text-align: center;
 }
 
 .portfolio-elements .element-title {
